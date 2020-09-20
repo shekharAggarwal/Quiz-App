@@ -3,6 +3,7 @@ import 'package:quiz_app/model/question.dart';
 
 void main() {
   runApp(new MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: QuizApp(),
   ));
 }
